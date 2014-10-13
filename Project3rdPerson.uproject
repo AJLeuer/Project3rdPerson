@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "61604382-BD41-6A80-9472-73B0C2EFBD38",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Project3rdPerson",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0500"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3EC2E17F8EB16C0F2AE0B6F5"
+               BuildableName = "UnrealPak - Mac"
+               BlueprintName = "UnrealPak - Mac"
+               ReferencedContainer = "container:Project3rdPerson.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2F820BA1B5797C0DAC20F2DB"
+               BuildableName = "UE4CmdLineRun.xctest"
+               BlueprintName = "UE4CmdLineRun"
+               ReferencedContainer = "container:Project3rdPerson.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3EC2E17F8EB16C0F2AE0B6F5"
+            BuildableName = "UnrealPak - Mac"
+            BlueprintName = "UnrealPak - Mac"
+            ReferencedContainer = "container:Project3rdPerson.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <PathRunnable
+         FilePath = "/Volumes/OS X HDD/Users/Adam/Developer/UnrealEngine/Engine/Binaries/Mac/UnrealPak-Mac-Debug">
+      </PathRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3EC2E17F8EB16C0F2AE0B6F5"
+            BuildableName = "UnrealPak - Mac"
+            BlueprintName = "UnrealPak - Mac"
+            ReferencedContainer = "container:Project3rdPerson.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Development"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3EC2E17F8EB16C0F2AE0B6F5"
+            BuildableName = "UnrealPak"
+            BlueprintName = "UnrealPak"
+            ReferencedContainer = "container:UE4.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Development"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
