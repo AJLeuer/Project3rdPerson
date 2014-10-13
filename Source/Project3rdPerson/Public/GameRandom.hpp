@@ -1,6 +1,6 @@
 //
 //  GameRandom.hpp
-//  SpriteFight
+//  
 //
 //  Created by Adam James Leuer on 6/28/14.
 //  Copyright (c) 2014 Adam James Leuer. All rights reserved.
@@ -20,33 +20,33 @@ using namespace std ;
 
 template<typename N>
 class FastRand {
-	
+
 protected:
-	
+
 	std::random_device dev ;
 	std::uniform_int_distribution<N> dist ;
     std::default_random_engine rndm = std::default_random_engine(dev()) ;
-	
+
 	N minimum ;
 	N maximum ;
-	
+
 	/* A conveniance random object that won't require initialization.
 	 * Especially useful in constructors and initializing static values.
-	 * A superior replacement for calling rand() 
+	 * A superior replacement for calling rand()
 	 */
-	
-	
+
+
 public:
-	
+
 	static FastRand defaultRandom ;
-	
+
 	FastRand(N _min, N _max) ;
-    
+
 	FastRand(const FastRand<N> & other) ;
-    
+
     template<typename M>
     FastRand(const FastRand<M> & other) ;
-    
+
 	FastRand & operator=(const FastRand<N> & rhs) ;
 	~FastRand() ;
 	N nextValue() ;
@@ -54,28 +54,28 @@ public:
 	template<typename R> R nextValue(R _min, R _max) ;
 	N operator()() ;
 	N operator()(N minimum, N maximum) ;
-	
+
 } ;
 
 template<>
 class FastRand<float> {
-	
+
 protected:
-	
+
 	std::random_device dev ;
 	std::uniform_real_distribution<float> dist ;
 	std::default_random_engine rndm = std::default_random_engine(dev()) ;
-	
+
 	float minimum ;
 	float maximum ;
-	
+
 	static FastRand * initRandPosSetter() ;
-	
+
 public:
-	
+
 	static FastRand defaultRandom ;
 	static FastRand * randPositionSetter ;
-	
+
 	FastRand(float _min, float _max) ;
 	FastRand(const FastRand<float> & other) ;
 	FastRand & operator=(const FastRand<float> & rhs) ;
@@ -85,29 +85,29 @@ public:
 	template<typename R> R nextValue(R _min, R _max) ;
 	float operator()() ;
 	float operator()(float minimum, float maximum) ;
-	
-	
+
+
 } ;
 
 template<>
 class FastRand<double> {
-	
+
 protected:
-	
+
 	std::random_device dev ;
 	std::uniform_real_distribution<double> dist ;
 	std::default_random_engine rndm = std::default_random_engine(dev()) ;
-	
+
 	double minimum ;
 	double maximum ;
-	
+
 	static FastRand * initRandPosSetter() ;
-	
+
 public:
-	
+
 	static FastRand defaultRandom ;
 	static FastRand * randPositionSetter ;
-	
+
 	FastRand(double _min, double _max) ;
 	FastRand(const FastRand<double> & other) ;
 	FastRand & operator=(const FastRand<double> & rhs) ;
@@ -117,8 +117,8 @@ public:
 	template<typename R> R nextValue(R _min, R _max) ;
 	double operator()() ;
 	double operator()(double minimum, double maximum) ;
-	
-	
+
+
 } ;
 
 template<typename N>
@@ -144,7 +144,7 @@ template<typename M>
 FastRand<N>::FastRand(const FastRand<M> & other) {
     this->minimum(static_cast<N>(other.minimum)) ;
     this->maximum(static_cast<N>(other.maximum)) ;
-    
+
     dist = uniform_int_distribution<N>(minimum, maximum) ;
 	rndm.seed(dev()) ;
 }
@@ -208,7 +208,7 @@ FastRand<N> FastRand<N>::defaultRandom(std::numeric_limits<N>::min(), std::numer
 
 template<typename N>
 N randSignFlip(N n) {
-	
+
 	FastRand<unsigned short> rand(0, 1) ;
 	bool pos = rand.nextValue() % 2 ;
 	if (pos) {
@@ -217,7 +217,7 @@ N randSignFlip(N n) {
 	else {
 		return (n * -1) ;
 	}
-	
+
 }
 
 template <typename T>
@@ -243,7 +243,7 @@ T chooseAtRand(T t1, T t2) {
  */
 template<typename SomeEnum, typename N>
 SomeEnum randomEnumeration(N maximum) {
-	
+
 	FastRand<N> randm(0, maximum) ;
 	N num = randm() ;
 	return SomeEnum(num) ;
