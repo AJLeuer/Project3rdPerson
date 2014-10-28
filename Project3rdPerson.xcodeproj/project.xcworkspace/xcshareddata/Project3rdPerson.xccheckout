@@ -6,24 +6,40 @@
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>FD03EC4A-DE5D-4607-9A39-E0DC30BF6FBA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Project3rdPerson</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>6EBDBC6EEC91CB4D75AE91FE9EFC759886F9D941</key>
 		<string>https://github.com/EpicGames/UnrealEngine.git</string>
+		<key>844A6C02B4532CF9902299D10970410725A787D8</key>
+		<string>https://github.com/AJLeuer/Project3rdPerson</string>
 	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Project3rdPerson.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>6EBDBC6EEC91CB4D75AE91FE9EFC759886F9D941</key>
-		<string>UnrealEngine</string>
+		<string>../../../UnrealEngine</string>
+		<key>844A6C02B4532CF9902299D10970410725A787D8</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/EpicGames/UnrealEngine.git</string>
+	<string>https://github.com/AJLeuer/Project3rdPerson</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>6EBDBC6EEC91CB4D75AE91FE9EFC759886F9D941</string>
+	<string>844A6C02B4532CF9902299D10970410725A787D8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>844A6C02B4532CF9902299D10970410725A787D8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Project3rdPerson</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

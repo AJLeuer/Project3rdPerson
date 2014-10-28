@@ -83,7 +83,7 @@ private:
 	void endThreading(bool join) ;
 
 	friend class WorldController ;
-	friend class GameState ;
+	friend struct GameState ;
 
 protected:
 

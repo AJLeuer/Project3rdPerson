@@ -10,13 +10,157 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Source/Project3rdPerson/Private/GameObject.cpp"
-            timestampString = "434926113.177748"
+            timestampString = "435150638.616467"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "77"
             endingLineNumber = "77"
             landmarkName = "GameObject::GameObject()"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/Project3rdPerson/Private/Project3rdPerson.cpp"
+            timestampString = "436190804.618615"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, Project3rdPerson, &quot;Project3rdPerson&quot; )"
+            landmarkType = "6">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InitializeModule"
+                  moduleName = "UE4Editor-Project3rdPerson-Mac-Debug.dylib"
+                  urlString = "file:///Volumes/OS%20X%20HDD/Users/Adam/Documents/Unreal%20Projects/Project3rdPerson/Source/Project3rdPerson/Private/Project3rdPerson.cpp"
+                  timestampString = "436190891.690278"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "operator new(unsigned long)"
+                  moduleName = "UE4Editor-Project3rdPerson-Mac-Debug.dylib"
+                  urlString = "file:///Volumes/OS%20X%20HDD/Users/Adam/Documents/Unreal%20Projects/Project3rdPerson/Source/Project3rdPerson/Private/Project3rdPerson.cpp"
+                  timestampString = "436190891.690514"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "operator new[](unsigned long)"
+                  moduleName = "UE4Editor-Project3rdPerson-Mac-Debug.dylib"
+                  urlString = "file:///Volumes/OS%20X%20HDD/Users/Adam/Documents/Unreal%20Projects/Project3rdPerson/Source/Project3rdPerson/Private/Project3rdPerson.cpp"
+                  timestampString = "436190891.690725"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "operator delete(void*)"
+                  moduleName = "UE4Editor-Project3rdPerson-Mac-Debug.dylib"
+                  urlString = "file:///Volumes/OS%20X%20HDD/Users/Adam/Documents/Unreal%20Projects/Project3rdPerson/Source/Project3rdPerson/Private/Project3rdPerson.cpp"
+                  timestampString = "436190891.690917"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "operator delete[](void*)"
+                  moduleName = "UE4Editor-Project3rdPerson-Mac-Debug.dylib"
+                  urlString = "file:///Volumes/OS%20X%20HDD/Users/Adam/Documents/Unreal%20Projects/Project3rdPerson/Source/Project3rdPerson/Private/Project3rdPerson.cpp"
+                  timestampString = "436190891.691095"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__cxx_global_var_init21"
+                  moduleName = "UE4Editor-Project3rdPerson-Mac-Debug.dylib"
+                  urlString = "file:///Volumes/OS%20X%20HDD/Users/Adam/Documents/Unreal%20Projects/Project3rdPerson/Source/Project3rdPerson/Private/Project3rdPerson.cpp"
+                  timestampString = "436190891.691277"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__cxx_global_var_init22"
+                  moduleName = "UE4Editor-Project3rdPerson-Mac-Debug.dylib"
+                  urlString = "file:///Volumes/OS%20X%20HDD/Users/Adam/Documents/Unreal%20Projects/Project3rdPerson/Source/Project3rdPerson/Private/Project3rdPerson.cpp"
+                  timestampString = "436190891.691472"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__cxx_global_var_init23"
+                  moduleName = "UE4Editor-Project3rdPerson-Mac-Debug.dylib"
+                  urlString = "file:///Volumes/OS%20X%20HDD/Users/Adam/Documents/Unreal%20Projects/Project3rdPerson/Source/Project3rdPerson/Private/Project3rdPerson.cpp"
+                  timestampString = "436190891.691648"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__cxx_global_var_init24"
+                  moduleName = "UE4Editor-Project3rdPerson-Mac-Debug.dylib"
+                  urlString = "file:///Volumes/OS%20X%20HDD/Users/Adam/Documents/Unreal%20Projects/Project3rdPerson/Source/Project3rdPerson/Private/Project3rdPerson.cpp"
+                  timestampString = "436190891.691838"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

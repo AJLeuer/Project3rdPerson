@@ -15,7 +15,7 @@ using namespace std ;
 
 unsigned Debug::debugCounter = 0 ;
 
-Debug * Debug::debugOutput = nullptr ;
+Debug * Debug::debugOutput = new Debug(& cout) ;
 
 void Debug::init() {
 	if (debugToSTDOutput) {
